@@ -30,14 +30,14 @@ public class OneTest {
 		
 		Thread.sleep(3000);
 		
-		Runtime.getRuntime().exec("C:\\Users\\sunil kumar\\eclipse-workspace\\MVNProject\\file\\mama.exe");
+		//Runtime.getRuntime().exec("C:\\Users\\sunil kumar\\eclipse-workspace\\MVNProject\\file\\mama.exe");
 		
 	}
 	@AfterMethod
 	public void samplee() throws InterruptedException
 	{
 		Thread.sleep(5000);
-		driver.close();
+		driver.quit();
 	}
 	
 }

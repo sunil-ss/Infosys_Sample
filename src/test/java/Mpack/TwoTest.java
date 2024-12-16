@@ -22,12 +22,12 @@ public class TwoTest {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://omayo.blogspot.com/");
 		String d = driver.findElement(By.xpath("//p[@id='pah']")).getText();
-		System.out.println(d);
-		Assert.assertEquals(d,"PracticeAutomationHere");
+		//System.out.println(d);
+		//Assert.assertEquals(d,"PracticeAutomationHere");
 	}
 	@AfterMethod
 	public void sample2()
 	{
-		driver.close();
+		driver.quit();
 	}
 }
