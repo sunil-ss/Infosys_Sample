@@ -1,0 +1,4 @@
+15:07:52.667 [main] DEBUG Mpack.OneTest - site moved back
+15:07:52.966 [main] DEBUG Mpack.OneTest - site moved forward
+15:07:52.976 [main] ERROR Mpack.OneTest - Test failed
+15:07:53.050 [main] DEBUG Mpack.OneTest - Chrome is closed
